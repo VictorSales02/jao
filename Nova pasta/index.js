@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('notas.json')
+    fetch('config.json')
         .then(response => response.json())
         .then(data => {
             let notas = data.notas;
